@@ -1,13 +1,9 @@
-#!pip install mysqlclient
-#!pip install jupytext
-pip install mysql-connector-python
 import pandas as pd
 import mysql.connector
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import seaborn as sns
 import streamlit as st
-#import jupytext
 
 connection = 'mysql://toyscie:WILD4Rdata!@51.178.25.157:23456/toys_and_models'
 connection = mysql.connector.connect(user = 'toyscie', password='WILD4Rdata!', host='51.178.25.157',port='23456',database='toys_and_models',use_pure=True)
