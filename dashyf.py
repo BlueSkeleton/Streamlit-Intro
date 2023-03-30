@@ -1,5 +1,6 @@
 #!pip install mysqlclient
 #!pip install jupytext
+pip install mysql-connector-python
 import pandas as pd
 import mysql.connector
 import matplotlib.pyplot as plt
