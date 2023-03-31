@@ -214,11 +214,14 @@ st.set_page_config(
     page_icon=":smiley:",
     layout="wide",
 )
-
+padding_top = 0
 st.markdown('''<h1 style='text-align: center; color: #7a0099;'>Toy Shop Bop</h1><style>
 span[data-baseweb="tag"] {
   background-color: purple !important;
 }
+.reportview-container .main .block-container{{
+            padding-top: {padding_top}rem;
+        }}
 </style>''', unsafe_allow_html=True)   #<----- title)
 
 options = ['Sales', 'Finances 1', 'Finances 2', 'Logistics', 'Human Resources']
